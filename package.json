@@ -1,22 +1,19 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Git and Node",
+  "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rmunoz33/git-test.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rmunoz33/git-test/issues"
-  },
-  "homepage": "https://github.com/rmunoz33/git-test#readme",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3"
   }
 }
